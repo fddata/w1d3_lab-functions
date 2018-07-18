@@ -4,11 +4,7 @@ end
 
 
 def sum_array(numbers)
-total = 0
-  for num in numbers
-    total += num
-  end
-  return total
+  return numbers.sum
 end
 
 
