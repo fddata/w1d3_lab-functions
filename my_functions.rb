@@ -10,3 +10,8 @@ total = 0
   end
   return total
 end
+
+
+def find_item(array, item)
+  return array.include?(item)
+end
